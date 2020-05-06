@@ -43,7 +43,7 @@ module.exports = {
                 use: {
                     loader: "babel-loader",
                     options: {
-                        presets: ["@babel/env", "@babel/react", "es2015"]
+                        presets: ["@babel/preset-env", "@babel/preset-react"]
                     }
                 }
             }
