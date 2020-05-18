@@ -8,7 +8,9 @@ class App extends React.Component {
 
     render() {
         return(
-            <div>Woot Woot!</div>
+            <div class="has-background-grey-lighter level"> 
+               hello is it time to start yet or what
+            </div>
         );
     };
 };

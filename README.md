@@ -21,4 +21,7 @@ to stop brew service mongodb, open terminal and enter:
 brew services stop mongodb-community@4.2
 
 
-
+https://mongoosejs.com/docs/4.x/docs/connections.html
+how to connect mongodb using mongoose:
+first you need to whitelist your ip address. mongodb will only allow users from certain ip addresses,
+so be sure to validate through mongodb website. 

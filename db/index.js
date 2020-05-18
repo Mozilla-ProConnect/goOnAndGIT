@@ -5,4 +5,4 @@ mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-db.once('open', () => console.log('MongoDB is connected '));
+db.once('open', () => console.log('MongoDB connected to mozilla-product-qzmi9... '));
